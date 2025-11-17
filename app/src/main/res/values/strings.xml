@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MAD_23012531070_PRACTICAL3</string>
+    <string name="login">LOGIN</string>
+    <string name="user_name">User Full Name:</string>
+    <string name="phone_no">Phone Number:</string>
+    <string name="city">City:</string>
+    <string name="email">Email Id:</string>
+    <string name="password">Password:</string>
+    <string name="cnf_password">Confirm Password:</string>
+    <string name="register">Register</string>
+    <string name="txt1">Do you have an account?</string>
+    <string name="forgot_password">Forgot Password?</string>
+</resources>

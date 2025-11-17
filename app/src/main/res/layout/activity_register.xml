@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            >
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="414dp"
+                    android:layout_height="203dp"
+                    android:contentDescription="@string/app_name"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/guni_pink_logo" />
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    app:cardCornerRadius="20dp"
+                    android:layout_marginHorizontal="20dp"
+                    app:cardElevation="20dp"
+                    app:layout_constraintTop_toBottomOf="@id/imageView3">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp">
+
+                        <androidx.constraintlayout.widget.Barrier
+                            android:id="@+id/text_barrier"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            app:barrierDirection="end"
+                            app:constraint_referenced_ids="textview_user_name,textview_phone_no,textview_city,textview_email,textview_password,textview_confirm_password" />
+
+                        <TextView
+                            android:id="@+id/textview_user_name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/reg_top_margin"
+                            android:text="@string/user_name"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <EditText
+                            android:id="@+id/edittext_user_name"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:inputType="textPersonName"
+                            app:layout_constraintBaseline_toBaselineOf="@id/textview_user_name"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/text_barrier" />
+
+                        <TextView
+                            android:id="@+id/textview_phone_no"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/reg_top_margin"
+                            android:text="@string/phone_no"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textview_user_name" />
+
+                        <EditText
+                            android:id="@+id/edittext_phone_no"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:inputType="phone"
+                            app:layout_constraintBaseline_toBaselineOf="@id/textview_phone_no"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/text_barrier" />
+
+                        <TextView
+                            android:id="@+id/textview_city"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/reg_top_margin"
+                            android:text="@string/city"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textview_phone_no" />
+
+                        <EditText
+                            android:id="@+id/edittext_city"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:inputType="text"
+                            app:layout_constraintBaseline_toBaselineOf="@id/textview_city"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/text_barrier" />
+
+                        <TextView
+                            android:id="@+id/textview_email"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/reg_top_margin"
+                            android:text="@string/email"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textview_city" />
+
+                        <EditText
+                            android:id="@+id/edittext_email"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:inputType="textEmailAddress"
+                            app:layout_constraintBaseline_toBaselineOf="@id/textview_email"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/text_barrier" />
+
+                        <TextView
+                            android:id="@+id/textview_password"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/reg_top_margin"
+                            android:text="@string/password"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textview_email" />
+
+                        <EditText
+                            android:id="@+id/edittext_password"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:inputType="textPassword"
+                            app:layout_constraintBaseline_toBaselineOf="@id/textview_password"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/text_barrier" />
+
+                        <TextView
+                            android:id="@+id/textview_confirm_password"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/reg_top_margin"
+                            android:text="@string/cnf_password"
+                            android:textSize="16sp"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textview_password" />
+
+                        <EditText
+                            android:id="@+id/edittext_confirm_password"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:inputType="textPassword"
+                            app:layout_constraintBaseline_toBaselineOf="@id/textview_confirm_password"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@id/text_barrier" />
+
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/btn_layout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-20dp"
+                    android:elevation="25dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/card_view"
+                    >
+
+                    <Button
+                        android:id="@+id/button_register"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="20dp"
+                        android:text="@string/register"
+                        android:textSize="18sp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+                <TextView
+                    android:id="@+id/textview_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:text="@string/txt1"
+                    android:textColor="@color/purple_700"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.367"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/btn_layout" />
+
+                <Button
+                    android:id="@+id/button_login1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@color/login_btn_back"
+                    android:text="@string/login"
+                    android:textColor="@color/login_btn_txt"
+                    android:textStyle="bold"
+                    app:layout_constraintBaseline_toBaselineOf="@id/textview_login"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toEndOf="@id/textview_login" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
