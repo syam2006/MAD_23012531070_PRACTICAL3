@@ -65,7 +65,7 @@ Entering a URL and clicking "Browse" uses an Implicit Intent to open a web brows
 3.Making a Phone Call
 Entering a phone number and clicking "Call" uses an Implicit Intent to launch the dialer.
 
-![image alt]()
+![image alt](https://github.com/syam2006/MAD_23012531070_PRACTICAL3/blob/ca642abfd33437dcb279cae0f40a33cc251679e8/Screenshot%202025-11-26%20203025.png)
 
 4.Opening the Gallery
 Tapping "Gallery" uses an Implicit Intent to open the device's gallery app.
