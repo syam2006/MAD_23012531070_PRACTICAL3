@@ -85,7 +85,7 @@ The "Alarm" button uses an Implicit Intent to launch the device's alarm clock ap
 7.Navigating to Login & Registration
 The "Login" button triggers an Explicit Intent to open the LoginActivity within the app.
 
-![image alt]()
+![image alt](https://github.com/syam2006/MAD_23012531070_PRACTICAL3/blob/29ac1a3af4150fa4ead5b33f507233850dafbd66/Screenshot%202025-11-26%20203901.png)
 
 The LoginActivity then provides an option to navigate to the RegisterActivity.
 
