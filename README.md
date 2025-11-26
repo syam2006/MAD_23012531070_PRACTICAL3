@@ -75,7 +75,7 @@ Tapping "Gallery" uses an Implicit Intent to open the device's gallery app.
 5.Launching the Camera
 Tapping "Camera" uses an Implicit Intent to open the device's camera application.
 
-![image alt]()
+![image alt](https://github.com/syam2006/MAD_23012531070_PRACTICAL3/blob/f8a0f7113bbd2a8a18f6f8fe120b83b3e82716bb/Screenshot%202025-11-26%20203509.png)
 
 6.Setting an Alarm
 The "Alarm" button uses an Implicit Intent to launch the device's alarm clock app.
