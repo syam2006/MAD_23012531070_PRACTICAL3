@@ -60,7 +60,7 @@ This is the central hub of the app, showing the various actions you can perform.
 2.Opening a URL
 Entering a URL and clicking "Browse" uses an Implicit Intent to open a web browser.
 
-![image alt]()
+![image alt](https://github.com/syam2006/MAD_23012531070_PRACTICAL3/blob/8e116ac169ad68bc23a177a5c4d220b8b505d0ad/Screenshot%202025-11-26%20202812.png)
 
 3.Making a Phone Call
 Entering a phone number and clicking "Call" uses an Implicit Intent to launch the dialer.
