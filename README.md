@@ -80,7 +80,7 @@ Tapping "Camera" uses an Implicit Intent to open the device's camera application
 6.Setting an Alarm
 The "Alarm" button uses an Implicit Intent to launch the device's alarm clock app.
 
-![image alt]()
+![image alt](https://github.com/syam2006/MAD_23012531070_PRACTICAL3/blob/a83ddd8a0346c2b726b84127f05041bda1785cb7/Screenshot%202025-11-26%20203632.png)
 
 7.Navigating to Login & Registration
 The "Login" button triggers an Explicit Intent to open the LoginActivity within the app.
