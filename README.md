@@ -70,7 +70,7 @@ Entering a phone number and clicking "Call" uses an Implicit Intent to launch th
 4.Opening the Gallery
 Tapping "Gallery" uses an Implicit Intent to open the device's gallery app.
 
-![image alt]()
+![image alt](https://github.com/syam2006/MAD_23012531070_PRACTICAL3/blob/aabac1572f7bb72ce41ae374b1e15687b613a6c9/Screenshot%202025-11-26%20203332.png)
 
 5.Launching the Camera
 Tapping "Camera" uses an Implicit Intent to open the device's camera application.
