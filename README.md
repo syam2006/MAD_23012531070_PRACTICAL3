@@ -89,7 +89,7 @@ The "Login" button triggers an Explicit Intent to open the LoginActivity within 
 
 The LoginActivity then provides an option to navigate to the RegisterActivity.
 
-![image alt]()
+![image alt](https://github.com/syam2006/MAD_23012531070_PRACTICAL3/blob/37ec93994c9cfa05dc1989d81a14c8a958787f76/Screenshot%202025-11-26%20204051.png)
 
 Learning Outcomes
 By studying and running this application, one can gain a better understanding of:
