@@ -55,7 +55,7 @@ Demonstration Screenshots
 1.Main Screen
 This is the central hub of the app, showing the various actions you can perform.
 
-![image alt]()
+![image alt](https://github.com/syam2006/MAD_23012531070_PRACTICAL3/blob/13d96a855560363059b2ef916b5182658f9b1b22/Screenshot%202025-11-26%20202606.png)
 
 2.Opening a URL
 Entering a URL and clicking "Browse" uses an Implicit Intent to open a web browser.
